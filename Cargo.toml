@@ -6,6 +6,7 @@ authors = ["Ayrat Badykov <ayratin555@gmail.com>"]
 [dependencies]
 log = "*"
 env_logger = "*"
+dotenv ="*"
 
 hyper ="0.11"
 futures = "0.1"

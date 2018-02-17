@@ -3,6 +3,7 @@ use std::env;
 const HTTP_PORT_ENV: &str = "HTTP_PORT";
 const DEFAULT_HTTP_PORT: &str = "3000";
 
+#[derive(Debug, Clone)]
 pub struct Config {
     pub http_port: u16
 }
